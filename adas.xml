@@ -1,0 +1,29 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://autenticaciodevel.udl.cat/SAML2/">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+      <shibmd:Scope xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" regexp="false">udl.cat</shibmd:Scope>
+      <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+        <mdui:Logo height="78" width="60">https://www.udl.cat/.galleries/imagenes-estructura/M-UdLlow.png</mdui:Logo>
+      </mdui:UIInfo>
+    </md:Extensions>
+    <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICsDCCAhmgAwIBAgIJALWPNc3PeGuVMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNVBAYTAkFVMRMwEQYDVQQIEwpTb21lLVN0YXRlMSEwHwYDVQQKExhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMTAwNjA2MTUxMzMzWhcNMjAwNjA1MTUxMzMzWjBFMQswCQYDVQQGEwJBVTETMBEGA1UECBMKU29tZS1TdGF0ZTEhMB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvvvT7zY9D1DQCsYm8b6I/QEXyX1yzGuciD4HCZ7pYCZ2ehmpXWYCRLaNx7ZM1YXEWuuo9F4Io7sqa0D+aDAvZsHRn71zoZgzmvHt2D0OPl35aK3BQZSKqMvfjXb2qGl3jNvFZPwHxwLaQwyM7I64ZIa86TKK/NYL+vr9+Wz7/1QIDAQABo4GnMIGkMB0GA1UdDgQWBBRSlnWPNzWG/nK2OwHnI26EkY7IjTB1BgNVHSMEbjBsgBRSlnWPNzWG/nK2OwHnI26EkY7IjaFJpEcwRTELMAkGA1UEBhMCQVUxEzARBgNVBAgTClNvbWUtU3RhdGUxITAfBgNVBAoTGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZIIJALWPNc3PeGuVMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgy8OLlAWP2OFcb7qpXKP5ipXh7863/Z9twPKCnOsKhaZv7kghQDOibEg8W+wbY0fI3dZOskMYJMLbK9oLYImu/4yALxb/g4UUmzQV4jgzqn6SjFiFSH/fXj9sJtbguNGfamrmkvbwZWDWag2eC3PAvY6oo1jFJvlyRLhksFe7Pg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICsDCCAhmgAwIBAgIJALWPNc3PeGuVMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNVBAYTAkFVMRMwEQYDVQQIEwpTb21lLVN0YXRlMSEwHwYDVQQKExhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMTAwNjA2MTUxMzMzWhcNMjAwNjA1MTUxMzMzWjBFMQswCQYDVQQGEwJBVTETMBEGA1UECBMKU29tZS1TdGF0ZTEhMB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvvvT7zY9D1DQCsYm8b6I/QEXyX1yzGuciD4HCZ7pYCZ2ehmpXWYCRLaNx7ZM1YXEWuuo9F4Io7sqa0D+aDAvZsHRn71zoZgzmvHt2D0OPl35aK3BQZSKqMvfjXb2qGl3jNvFZPwHxwLaQwyM7I64ZIa86TKK/NYL+vr9+Wz7/1QIDAQABo4GnMIGkMB0GA1UdDgQWBBRSlnWPNzWG/nK2OwHnI26EkY7IjTB1BgNVHSMEbjBsgBRSlnWPNzWG/nK2OwHnI26EkY7IjaFJpEcwRTELMAkGA1UEBhMCQVUxEzARBgNVBAgTClNvbWUtU3RhdGUxITAfBgNVBAoTGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZIIJALWPNc3PeGuVMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgy8OLlAWP2OFcb7qpXKP5ipXh7863/Z9twPKCnOsKhaZv7kghQDOibEg8W+wbY0fI3dZOskMYJMLbK9oLYImu/4yALxb/g4UUmzQV4jgzqn6SjFiFSH/fXj9sJtbguNGfamrmkvbwZWDWag2eC3PAvY6oo1jFJvlyRLhksFe7Pg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://autenticaciodevel.udl.cat/SAML2/SLOService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://autenticaciodevel.udl.cat/SAML2/SSOService.php"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://autenticaciodevel.udl.cat/SAML2/SSOService.php"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://autenticaciodevel.udl.cat/SAML2/ECPService.php"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
